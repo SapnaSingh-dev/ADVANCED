@@ -1,0 +1,13 @@
+*{
+    background-color: black;
+}
+h2{
+    color: white;
+}
+button{
+    background-color: rgb(195, 167, 26);
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    height: 20px;
+}

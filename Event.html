@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h2>Inline Event </h2>
+    <button  onclick="alert('sapna singh is a good girl')" >greeting</button>
+    <button id="but2" ondblclick="alert('she is kajal singh humble girl')">greeting again</button>
+    <button id="but3" onmousemove="alert('nikki she is imotional')">greeting again</button>
+
+    <h2>Dom Event handler</h2>
+    <button id="but4">greeting</button>
+    <button id="but5">greeting again</button>
+
+    <h2>addEventListener Event handler</h2>
+    <button id="but6">greeting</button>
+    <button id="but7">greeting again</button>
+</body>
+<script>
+    document.getElementById("but4").onclick=()=>{
+        alert("wow");
+    }
+    document.getElementById("but5").onmouseout=()=>{
+        alert("wow");
+    }
+
+    //now for addEventListener
+  document.getElementById("but6").addEventListener("click",()=>{
+    alert('i love you miss arezo');
+  });
+  document.getElementById("but7").addEventListener("click",()=>{
+    alert('i love you mr monu');
+  });
+
+</script>
+</html>
