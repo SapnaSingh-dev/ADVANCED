@@ -1,5 +1,5 @@
 let rect = document.getElementById("rectangle");
-let buton = document.getElementById("butt");
+let buton = document.getElementById("button");
 
 let getRandomColor = () => {
     let letters = '0123456789ABCDEF';
